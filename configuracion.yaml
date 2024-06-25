@@ -1,0 +1,10 @@
+path: 
+train: images/train 
+val: images/val
+test: images/test
+
+nc: 30
+names: ['clase 00','clase 01','clase 02','clase 03','clase 04','clase 05','clase 06',
+'clase 07','clase 08','clase 09', 'clase 10','clase 11','clase 12','clase 13','clase 14',
+'clase 15','clase 16','clase 17','clase 18','clase 19','clase 20','clase 21','clase 22',
+'clase 23','clase 24','clase 25','clase 26','clase 27','clase 28','clase 29']
