@@ -6,6 +6,7 @@ from ultralytics import YOLO
 from supervision import BoxAnnotator
 from supervision.detection.core import Detections
 
+ruta="best.pt"
 class ObjectDetection:
     def __init__(self, capture_index):
         self.capture_index = capture_index
@@ -14,7 +15,7 @@ class ObjectDetection:
         self.box_annotator = BoxAnnotator(thickness=3, text_thickness=3, text_scale=1.5)
 
     def load_model(self):
-        model = YOLO('C:/Users/arand/OneDrive/Desktop/TFG/runs/detect/train6/weights/best.pt')
+        model = YOLO(ruta)
         model.fuse()
         return model
 
@@ -130,7 +131,7 @@ def upload_file():
 def predict(path):
     global imgn
     model= YOLO('C:/Users/arand/OneDrive/Desktop/TFG/runs/detect/train6/weights/best.pt')
-    #model = YOLO('./runs/detect/train6/weights/best.pt')
+    #model = YOLO(ruta)
     img = cv2.imread(path)
     results = model.predict(img, stream=True, save=False, imgsz=320, conf=0.6)
     for r in results:
