@@ -23,10 +23,10 @@ IMPORTANTE!: La carpeta del dataset debe tener la siguiente estructura. Debe inc
 Para llevar a cabo el entrenamiento, se ejecuta el archivo 'train_detection' asegurándose de colocar la ruta al archivo 'configuracion' correctamente.
 
 5.  Demostrador:
-Para poner a prueba el modelo de reconociemiento de hojas se ha subido el archivo 'best.pt' que contiene la arquitectura, los pesos y los sesgos de la red entrenada. En el archivo 'object_detection' se ecnuentra el código que permite poner a prueba el modelo con una interfaz sencilla para el usuario. 
+Para poner a prueba el modelo de reconociemiento de hojas se ha subido el archivo 'best.pt' que contiene la arquitectura, los pesos y los sesgos de la red entrenada. En el archivo 'demostrador' se ecnuentra el código que permite poner a prueba el modelo con una interfaz sencilla para el usuario. 
 
-IMPORTANTE! Asegúrate de colocar adecuadamente la ruta al archivo "best.pt" en el código de 'object_detection'.
-En caso de haber entrenado desde cero tu propio modelo, al terminar el entrenamiento se habrán guardado los pesos "best.pt" del modelo en una carpeta de tu dispositivo. Este archivo "best.pt" es el que deberás utilizar en el demostrador 'object_detection' para poner a prueba tu modelo.
+IMPORTANTE! Asegúrate de colocar adecuadamente la ruta al archivo "best.pt" en el código de 'demostrador'.
+En caso de haber entrenado desde cero tu propio modelo, al terminar el entrenamiento se habrán guardado los pesos "best.pt" del modelo en una carpeta de tu dispositivo. Este archivo "best.pt" es el que deberás utilizar en el demostrador 'demostrador' para poner a prueba tu modelo.
 
 
 ----------------Contacto---------------------
