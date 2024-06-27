@@ -30,6 +30,6 @@ En caso de haber entrenado desde cero tu propio modelo, al terminar el entrenami
 
 ----------------Contacto---------------------
 
-Para cualquier pregunta, sugerencia o problema relacionado con el uso de este repositorio, por favor contacta con el mantenimiento del proyecto a través de [mig.algaba@gmail.com].
+Para cualquier pregunta, sugerencia o problema relacionado con el uso de este repositorio, por favor contacta con [mig.algaba@gmail.com].
 
 ¡Esperamos que este modelo sea útil!
