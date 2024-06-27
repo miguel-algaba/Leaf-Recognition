@@ -2,7 +2,7 @@ RECONOCIMIENTO DE HOJAS EN TIEMPO REAL.
 
 Este repositorio contiene los recursos necesarios para utilizar un modelo de reconocimiento de hojas en tiempo real, capaz de detectar e identificar 30 especies diferentes de árboles a partir de fotos de sus hojas.
 
-----------Contenido del Repositorio-----------------
+----------Contenido del Repositorio----------------
 
 
 0.  Para probar una versión básica del demostrador sin necesidad de utilizar un entorno de desarrollo, puedes acceder al archivo 'demostrador_basico', que da acceso a un archivo de Google Colab en el que está cargado el modelo y se puede poner a prueba. Nota: para poner a prueba el modelo se recomienda utilizar alguna de las imágenes de los archivos 'images1' o 'images2'
