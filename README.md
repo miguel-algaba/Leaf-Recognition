@@ -5,7 +5,7 @@ Este repositorio contiene los recursos necesarios para utilizar un modelo de rec
 ----------Contenido del Repositorio----------------
 
 
-0.  Para probar una versión básica del demostrador sin necesidad de utilizar un entorno de desarrollo, puedes acceder al archivo 'demostrador_basico', que da acceso a un archivo de Google Colab en el que está cargado el modelo y se puede poner a prueba. Nota: para poner a prueba el modelo se recomienda utilizar alguna de las imágenes de los archivos 'images1' o 'images2'
+0.  Para probar una versión básica del demostrador sin necesidad de utilizar un entorno de desarrollo, puedes acceder al archivo 'demostrador_basico', que da acceso a un archivo de Google Colab en el que está cargado el modelo y se puede poner a prueba. Nota: para poner a prueba el modelo puedes utilizar por ejemplo alguna de las imágenes de los archivos 'images1' o 'images2'
 
 1.  Imágenes de la Base de Datos:
 'images1' y 'images2' contienen todas las imágenes utilizadas para entrenar y validar el modelo. Estas imágenes representan las diferentes especies de árboles y sus hojas.
