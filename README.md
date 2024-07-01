@@ -23,7 +23,7 @@ En el archivo 'configuración' se encuentra la configuración necesaria para aqu
 
 Importante: La carpeta que utiliza el archivo 'configuracion' para cargar el dataset debe tener la estructura del archivo 'dataset'. Esta estructura se detalla a continuación. La carpeta del dataset debe incluir dos carpetas llamadas "images" y "labels". En cada una de estas dos carpetas debe haber tres carpetas, llamadas "test", "train" y "val". En las carpetas "test", "train" y "val" de la carpeta "images" irán las imágenes destinadas al test, entrenamiento y validacción respectivamente. En las carpetas "test", "train" y "val" de la carpeta "labels" irán las etiquetas pertenecientes a las imágenes que se han colocado en estas tres carpetas anteriormente. Para facilitar este reparto en carpetas y la división del dataset en entrenamiento, test y validación, se puede utilizar el código 'split_dataset', que permite seleccionar los porcentajes que se van a emplear en entrenamiento, test y validación y reparte las imágenes y sus etiquetas de manera adecuada.
 
-5.  Demostrador:
+6.  Demostrador:
 Para poner a prueba el modelo de reconociemiento de hojas se ha subido el archivo 'best.pt' que contiene la arquitectura, los pesos y los sesgos de la red entrenada. En el archivo 'demostrador' se ecnuentra el código que permite poner a prueba el modelo con una interfaz sencilla para el usuario. 
 
 Importante; asegúrate de colocar adecuadamente la ruta al archivo "best.pt" en el código de 'demostrador'.
