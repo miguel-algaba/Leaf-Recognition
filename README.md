@@ -11,7 +11,7 @@ El archivo 'images' contiene todas las imágenes utilizadas para entrenar y vali
 2.  Etiquetado de Imágenes:
 El archivo 'labels' proporciona el etiquetado de todas las imágenes en el formato YOLOv8. Estos datos son fundamentales para el entrenamiento y la evaluación del modelo.
 
-3 Versión básica del demostrador:
+3.  Versión básica del demostrador:
 Para probar una versión básica del demostrador sin necesidad de utilizar un entorno de desarrollo, puedes acceder al archivo 'demostrador_basico', que da acceso a un archivo de Google Colab en el que está cargado el modelo y se puede poner a prueba. Para acceder al archivo Google Colab debes pulsar en el botón "Open in Colab" del archivo 'demostrador_basico', después debes ejecutar todas las celdas de código para hacer funcionar el modelo. En la última de las celdas de código encontrarás un botón que te permita seleccionar la imagen con la que vas a poner a prueba al modelo. Si quieres volver a utilizar el modelo con una nueva imagen, bastará con ejecutar de nuevo la última celda.
 Nota: para poner a prueba el modelo puedes utilizar por ejemplo alguna de las imágenes del archivo 'images'
 
