@@ -130,8 +130,7 @@ def upload_file():
 
 def predict(path):
     global imgn
-    model= YOLO('C:/Users/arand/OneDrive/Desktop/TFG/runs/detect/train6/weights/best.pt')
-    #model = YOLO(ruta)
+    model= YOLO(ruta)
     img = cv2.imread(path)
     results = model.predict(img, stream=True, save=False, imgsz=320, conf=0.6)
     for r in results:
