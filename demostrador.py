@@ -6,7 +6,7 @@ from ultralytics import YOLO
 from supervision import BoxAnnotator
 from supervision.detection.core import Detections
 
-ruta="best.pt"
+ruta="./best.pt"
 class ObjectDetection:
     def __init__(self, capture_index):
         self.capture_index = capture_index
