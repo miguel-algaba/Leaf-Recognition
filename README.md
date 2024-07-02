@@ -26,7 +26,7 @@ Importante: La carpeta que utiliza el archivo 'configuracion' para cargar el dat
 6.  Demostrador:
 Para poner a prueba el modelo de reconociemiento de hojas se ha subido el archivo 'best.pt' que contiene la arquitectura, los pesos y los sesgos de la red entrenada. En el archivo 'demostrador' se ecnuentra el código que permite poner a prueba el modelo con una interfaz sencilla para el usuario. 
 
-Importante; asegúrate de colocar adecuadamente la ruta al archivo "best.pt" en el código de 'demostrador'. Puedes o bien ubicar el archivo 'best.pt' en la misma carpeta que el archivo 'demostrador' para que la ruta que está en el código funcione o bien modificar la línea 8 del archivo 'demostrador' para modificar la ruta al archivo 'best.pt' a la ruta donde se encuentre este en tu dispositivo.
+Importante; asegúrate de colocar adecuadamente la ruta al archivo "best.pt" en el código de 'demostrador'. Puedes o bien ubicar el archivo 'best.pt' en la misma carpeta que el archivo 'demostrador' para que la ruta que está en el código funcione, o bien modificar la línea 8 del archivo 'demostrador' para modificar la ruta al archivo 'best.pt' a la ruta donde se encuentre este en tu dispositivo.
 En caso de haber entrenado desde cero tu propio modelo, al terminar el entrenamiento se habrán guardado los pesos "best.pt" del modelo en una carpeta de tu dispositivo. Este archivo "best.pt" es el que deberás utilizar en el código 'demostrador' para poner a prueba tu modelo.
 
 
